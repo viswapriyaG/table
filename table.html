@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Optional: Background color for better visibility */
+        }
+        table {
+            width: 40%; /* Set table width to 80% of the viewport */
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid black; /* Added border for better visibility */
+            width: 40%;
+            height: 80%
+        }
+        th {
+            text-align: center;
+            background-color: darkcyan;
+            color: white; /* Optional: Text color for header */
+        }
+        .header {
+            font-size: 24px;
+        }
+        .images img {
+            width: 100px;
+            height: 100px;
+        }
+        .ul {
+            border-top: 3px double black; /* Horizontal double line */
+            margin: 20px 0; /* Optional: Adjust the margin */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2" class="header">My Day</th>
+        </tr>
+        <tr>
+            <td>
+                <ol>
+                    <li>Wake up early
+                        <ul>
+                            <li><b>5AM</b></li>
+                            <li>Walk</li>
+                            <li>Jog</li>
+                        </ul>
+                        <br>
+                    </li>
+                    <li>Breakfast
+                        <ul>
+                            <li><b>8AM</b></li>
+                            <li>Eggs</li>
+                            <li>Coffee</li>
+                        </ul>
+                        <br>
+                    </li>
+                    <li>Go to Saveetha
+                        <ul>
+                            <li><b>8AM</b></li>
+                            <li>Attend classes</li>
+                            <li>To be continued</li>
+                        </ul>
+                    </li>
+                </ol>
+            </td>
+            <td>
+                <table class="images">
+                    <tr>
+                        <th colspan="2">Things to watch</th>
+                    </tr>
+                    <tr>
+                        <td><img src="https://fitnessinterests.com/wp-content/uploads/2017/10/jogging_fitness_tips_by_gripped_fiteness_audio_wireless_gym_headphones_3.jpg" alt="Image 1"></td>
+                        <td><img src="https://tse2.mm.bing.net/th?id=OIP.OdyeJ2012cOJlwLFai4LgQHaE8&pid=Api&P=0&h=180" alt="Image 2"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://tse4.mm.bing.net/th?id=OIP.PGflPWglidy4zgLdOsHiDAHaEo&pid=Api&P=0&h=180" alt="Image 3" width="100%"></td>
+                        <td><img src="https://tse3.mm.bing.net/th?id=OIP.hfh0Jw6JjV-ch33h7M8syAHaD7&pid=Api&P=0&h=180" alt="Image 4" width="100%"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
